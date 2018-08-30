@@ -13,6 +13,6 @@ def input_to_index(user_input)
 end
 
 def move(board, position, xo=" ")
-  board[position] = xo
+  board[position - 1] = xo
 end
   
